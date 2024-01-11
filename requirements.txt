@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+kaggle
+streamlit
+scikit-image
+scikit-learn
+tensorflow>=2.12.0
+
+keras
+protobuf
+altair
