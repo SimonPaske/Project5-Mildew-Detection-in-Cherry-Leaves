@@ -22,7 +22,7 @@ def mildew_detector_page():
         f'You can download testing images of cherry leaves from the following link:'
         f' [Kaggle](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves)'
     )
-    st.write('---')
+    st.write('---')  # Moved this line here
 
     image_buffer = st.file_uploader(
         "Upload an image of a cherry leaf", type=["png", "jpg", "jpeg"], accept_multiple_files=True
@@ -32,6 +32,7 @@ def mildew_detector_page():
         df_report = pd.DataFrame([])
         for image in image_buffer:
 
+            # Extract the filename from the uploaded file
             image_name = image.name if hasattr(image, 'name') else "Unknown"
 
             image = Image.open(image)
@@ -45,7 +46,7 @@ def mildew_detector_page():
             predictions = load_model_and_predict(resized_image, version)
             plot_predictions_probabilities(pred_proba=predictions[0], pred_class=predictions[1])
 
-            df_report = pd.concat([df_report, pd.DataFrame([{'Name': image_name, 'Result': predictions[1]}])], ignore_index=True)
+            df_report = df_report.append({'Name': image_name, 'Result': predictions[1]}, ignore_index=True)
 
     if not df_report.empty:
         st.success("Analysis Report")
