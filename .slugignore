@@ -1,4 +1,15 @@
 *.zip
 inputs/datasets/cherry-leaves/test/*
 inputs/datasets/cherry-leaves/train/*
-/documentation
+jupyter_notebooks/*
+keras_tuner_dir/tune_model/trial_00/*
+keras_tuner_dir/tune_model/trial_01/*
+keras_tuner_dir/tune_model/trial_02/*
+keras_tuner_dir/tune_model/trial_03/*
+keras_tuner_dir/tune_model/trial_04/*
+keras_tuner_dir/tune_model/trial_05/*
+keras_tuner_dir/tune_model/trial_06/*
+keras_tuner_dir/tune_model/trial_07/*
+keras_tuner_dir/tune_model/trial_08/*
+keras_tuner_dir/tune_model/oracle.json
+keras_tuner_dir/tune_model/tuner().json
