@@ -1,0 +1,4 @@
+*.zip
+inputs/datasets/cherry-leaves/test/*
+inputs/datasets/cherry-leaves/train/*
+/documentation
