@@ -43,7 +43,7 @@ def model_performance():
         f'In general, the goal is to maximize accuracy and minimize loss. ''\n'
         f'The observed patterns suggest a typical learning curve, indicating that the model is neither overfitting '
         f'nor underfitting. The balance between accuracy improvement and loss reduction suggests that the model is '
-        f'effectively learning from the training data without exhibiting signs of overemphasis on the training set ')
+        f'effectively learning from the training data without exhibiting signs of overemphasis on the training set. ')
 
     st.write(" **Model Training Accuracy**")
     model_acc = plt.imread(f"keras_tuner_dir/tune_model/model_training_acc.png")

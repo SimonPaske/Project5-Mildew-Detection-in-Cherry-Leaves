@@ -2,7 +2,7 @@
 
 The Powdery Mildew Detector is an application designed to predict whether cherry leaves are healthy or infected with powdery mildew. The app utilizes a supervised, single-label, binary classification machine learning model. Specifically, a binary classifier is employed to predict the outcome based on an image of a cherry leaf, categorizing it as either healthy or infected.
 
-[View Live Project](https://share.streamlit.io/robert-s-lee/powdery-mildew-detector-app/main/app.py)
+[View Live Project](https://project5-mildew-detection-in-cherry-leaves-cwd3pbqda8su5nzsgn5.streamlit.app/)
 
 ---
 
