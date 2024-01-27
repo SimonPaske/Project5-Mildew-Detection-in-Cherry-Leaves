@@ -163,3 +163,4 @@ kaggle.json
 __pycache__/
 inputs/datasets/cherry-leaves/test
 inputs/datasets/cherry-leaves/train
+.DS_Store

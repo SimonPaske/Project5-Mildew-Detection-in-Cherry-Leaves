@@ -17,7 +17,7 @@ def summary_page():
         f"control powdery mildew infections.")
     '\n'
 
-    st.write('**Project Dataset**' '\n'
+    st.warning('**Project Dataset**' '\n'
              'The dataset used in this project is a collection of images of cherry leaves infected with powdery mildew.'' \n'
              'Dataset can be found at [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves)'' \n'
              'The Dataset contains 4.218 images taken from client'' \n'
